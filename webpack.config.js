@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/components/index.js",
   output: {
     path: path.resolve('dist'),
-    fileName: 'index.js',
+    filename: 'index.js',
     libraryTarget: 'commonjs2'
   },
   module: {
